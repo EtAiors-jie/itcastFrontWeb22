@@ -1,0 +1,215 @@
+//微金所主页样式修改
+a{
+    color:#808080;
+}
+// 头部
+.wjs-top{
+    .row{
+        margin-right: 0;
+        text-align: center;
+        >div{
+            border: 1px solid black;
+            height: 40px;
+            line-height: 40px;
+            border-top: none;
+            border-right: none;
+        }
+        .wjs-phone{
+            position: relative;
+            img{
+                position: absolute;
+                z-index: 1;
+                left: 0;
+                top: 25px;
+                display: none;
+            }
+            &:hover img{
+                display: block;
+            }
+        }
+    }
+}
+
+// 导航条
+.wjs-nav{
+    margin-bottom: 0;
+    .container{
+        a{
+            height: 80px;
+            line-height: 80px;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+        .navbar-brand{
+            font-size: 70px;
+            >.wjsfont{
+                top:0;
+                line-height: inherit;
+            }
+            .wjsfont-logo{
+                color: red;
+            }
+        }
+        .collapse{
+            a:hover,a:focus{
+                border-bottom: 1px solid red;
+            }
+        }
+        
+    }
+}
+
+// 广告栏-轮播图
+.wjs-banner{
+    a{
+        display: block;
+        img{
+            display: block;
+            width: 100%;
+        }
+    }
+    
+}
+
+
+// 交易保障
+.exchange{
+    .row{
+        margin: 50px 0;
+        >div{
+            padding: 20px 0;
+        }
+        a{
+            display: block;
+            &:hover{
+                color: red;
+            }
+           .wjsfont{
+               font-size: 40px;
+           }
+           h4{
+               font-size: 22px;
+           }
+        }
+    }
+}
+
+
+// 预约
+.waiting{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 80px;
+    padding: 30px 0;
+    font-size: 15px;
+    .waiting-l{
+        a{
+            color: red;
+            border-bottom: 1px dashed currentColor;
+            &:hover{
+                border-bottom: 1px solid red;
+            }
+        }
+    }
+}
+
+// 微投资
+.buy{
+    .nav-tabs{
+        a{ 
+            color: #337ab7;
+        }
+    }
+    .tab-content{
+        a{
+            position: relative;
+            display: block;
+            background-color: #f7f7f7;
+            color: #808080;
+            margin-top: 20px;
+            padding-right: 80px;
+            box-shadow: 1px 1px  1px 2px #ccc,
+            -1px -1px 1px 2px #ccc;
+            h4{
+                text-align: center;
+            }
+            .cart_content{
+                padding: 0 10px;
+                border-right: 1px dashed #000;
+            }
+            .cart_rate{
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 80px;
+                height: 100%;
+                .rate_content{
+                    margin-top: 60px;
+                    text-align: center;
+                }
+                &::before{
+                    content: "鬼";
+                    display: block;
+                    position: absolute;
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    background-color: #fff;
+                    top:0;
+                    left:0;
+                    transform: translate(-50%,-50%);
+                    box-shadow: 0px 2px 1px 0px #ccc;
+                    text-align: center;
+                }
+                &::after{
+                    content: "屎";
+                    display: block;
+                    position: absolute;
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    background-color: #fff;
+                    bottom:0;
+                    left:0;
+                    transform: translate(-50%,50%);
+                    box-shadow: 0px -2px 1px 0px #ccc;
+                    text-align: center;
+                }
+            }
+        }
+        .cart-red{
+            background-color: red;
+            color: #fff;
+            .wjsfont{
+                position: absolute;
+                font-size: 40px;
+                left: 0;
+                top: 0;
+            }
+            .cart_content{
+                border-right: 1px dashed #FFF;
+            }
+        }
+        .pull-left{
+            width: 50%;
+        }
+        .pull-right{
+            text-align: right;
+            width: 50%;
+        }
+        .baby{
+            span:first-of-type{
+                border: 1px solid green;
+                color: green;
+            } 
+            span:last-of-type{
+                border: 1px solid red;
+                color:red;
+                &:hover{
+                    border-color: transparent;
+                }
+            } 
+        }
+    }
+    
+}

@@ -1,0 +1,222 @@
+@charset "UTF-8";
+a {
+  color: #808080;
+}
+
+.wjs-top .row {
+  margin-right: 0;
+  text-align: center;
+}
+
+.wjs-top .row > div {
+  border: 1px solid black;
+  height: 40px;
+  line-height: 40px;
+  border-top: none;
+  border-right: none;
+}
+
+.wjs-top .row .wjs-phone {
+  position: relative;
+}
+
+.wjs-top .row .wjs-phone img {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 25px;
+  display: none;
+}
+
+.wjs-top .row .wjs-phone:hover img {
+  display: block;
+}
+
+.wjs-nav {
+  margin-bottom: 0;
+}
+
+.wjs-nav .container a {
+  height: 80px;
+  line-height: 80px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.wjs-nav .container .navbar-brand {
+  font-size: 70px;
+}
+
+.wjs-nav .container .navbar-brand > .wjsfont {
+  top: 0;
+  line-height: inherit;
+}
+
+.wjs-nav .container .navbar-brand .wjsfont-logo {
+  color: red;
+}
+
+.wjs-nav .container .collapse a:hover, .wjs-nav .container .collapse a:focus {
+  border-bottom: 1px solid red;
+}
+
+.wjs-banner a {
+  display: block;
+}
+
+.wjs-banner a img {
+  display: block;
+  width: 100%;
+}
+
+.exchange .row {
+  margin: 50px 0;
+}
+
+.exchange .row > div {
+  padding: 20px 0;
+}
+
+.exchange .row a {
+  display: block;
+}
+
+.exchange .row a:hover {
+  color: red;
+}
+
+.exchange .row a .wjsfont {
+  font-size: 40px;
+}
+
+.exchange .row a h4 {
+  font-size: 22px;
+}
+
+.waiting {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 80px;
+  padding: 30px 0;
+  font-size: 15px;
+}
+
+.waiting .waiting-l a {
+  color: red;
+  border-bottom: 1px dashed currentColor;
+}
+
+.waiting .waiting-l a:hover {
+  border-bottom: 1px solid red;
+}
+
+.buy .nav-tabs a {
+  color: #337ab7;
+}
+
+.buy .tab-content a {
+  position: relative;
+  display: block;
+  background-color: #f7f7f7;
+  color: #808080;
+  margin-top: 20px;
+  padding-right: 80px;
+  -webkit-box-shadow: 1px 1px  1px 2px #ccc, -1px -1px 1px 2px #ccc;
+          box-shadow: 1px 1px  1px 2px #ccc, -1px -1px 1px 2px #ccc;
+}
+
+.buy .tab-content a h4 {
+  text-align: center;
+}
+
+.buy .tab-content a .cart_content {
+  padding: 0 10px;
+  border-right: 1px dashed #000;
+}
+
+.buy .tab-content a .cart_rate {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 80px;
+  height: 100%;
+}
+
+.buy .tab-content a .cart_rate .rate_content {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.buy .tab-content a .cart_rate::before {
+  content: "鬼";
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-shadow: 0px 2px 1px 0px #ccc;
+          box-shadow: 0px 2px 1px 0px #ccc;
+  text-align: center;
+}
+
+.buy .tab-content a .cart_rate::after {
+  content: "屎";
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+  -webkit-box-shadow: 0px -2px 1px 0px #ccc;
+          box-shadow: 0px -2px 1px 0px #ccc;
+  text-align: center;
+}
+
+.buy .tab-content .cart-red {
+  background-color: red;
+  color: #fff;
+}
+
+.buy .tab-content .cart-red .wjsfont {
+  position: absolute;
+  font-size: 40px;
+  left: 0;
+  top: 0;
+}
+
+.buy .tab-content .cart-red .cart_content {
+  border-right: 1px dashed #FFF;
+}
+
+.buy .tab-content .pull-left {
+  width: 50%;
+}
+
+.buy .tab-content .pull-right {
+  text-align: right;
+  width: 50%;
+}
+
+.buy .tab-content .baby span:first-of-type {
+  border: 1px solid green;
+  color: green;
+}
+
+.buy .tab-content .baby span:last-of-type {
+  border: 1px solid red;
+  color: red;
+}
+
+.buy .tab-content .baby span:last-of-type:hover {
+  border-color: transparent;
+}
+/*# sourceMappingURL=index.css.map */
